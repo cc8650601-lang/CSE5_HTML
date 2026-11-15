@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>More Form Controls</title>
+</head>
+<body>
+    <h1>Course Feedback</h1>
+    <form action="#" method="get">
+        <p>
+            <label for="course">Choose a course:</label>
+            <select id="course" name="course" required>
+                <option value="">Select one</option>
+                <option>HTML</option>
+                <option>CSS</option>
+                <option>JavaScript</option>
+            </select>
+        </p>
+        <p>
+            <label for="comments">Your comments:</label><br>
+            <textarea id="comments" name="comments" rows="5" cols="40" placeholder="Write your feedback"></textarea>
+        </p>
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+        <button type="button" onclick="alert('This is a regular button.')">Click me</button>
+    </form>
+</body>
+</html>
