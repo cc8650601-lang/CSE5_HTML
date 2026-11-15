@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Accessible Page</title>
+</head>
+<body>
+  <a href="#main">Skip to main content</a><br>
+
+  <a href="#home">Home</a>
+  <a href="#help">Help</a>
+
+  <main id="main">
+    <h1>Accessible Page</h1>
+
+    <form action="#" method="get">
+      <input
+        type="text"
+        aria-label="Search"
+        style="width: 195px; height: 18px;"
+      >
+      <img
+        src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16'%3E%3Crect x='1' y='1' width='14' height='14' rx='2' fill='%232895c8'/%3E%3Ctext x='8' y='12' text-anchor='middle' font-family='Arial' font-size='12' font-weight='bold' fill='white'%3E%3F%3C/text%3E%3C/svg%3E"
+        alt=""
+        width="16"
+        height="16"
+      >
+      <button type="reset" aria-label="Clear search">X</button>
+      <br><br>
+
+      <label for="site-search">Search:</label>
+      <input type="search" id="site-search" name="q">
+    </form>
+  </main>
+</body>
+</html>
